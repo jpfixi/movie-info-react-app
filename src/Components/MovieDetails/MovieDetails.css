@@ -1,0 +1,57 @@
+.MovieDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2rem 0;
+  width: 100%;
+  /* border: 1px solid #BC8C44; */
+}
+
+.MovieDetails img {
+  width: 300px;
+  height: auto;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  border: 3px solid #BC8C44;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  width: 700px;
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+
+
+
+.metrics {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.metrics p {
+  width: 50%;
+}
+
+.genres-container {
+  display: flex;
+  align-items: center;
+}
+
+.genres {
+  display: flex;
+  flex: 1;
+}
+
+.genres p:first-child {
+  margin-left: 10px;
+}
+
+.genres p:not(:last-child) {
+  margin-right: 10px;
+}

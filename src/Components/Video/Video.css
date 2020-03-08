@@ -1,0 +1,16 @@
+.Video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 100vh;
+  margin-left:70px; 
+}
+
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #BC8C44;
+}
